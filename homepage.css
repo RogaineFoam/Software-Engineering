@@ -1,0 +1,120 @@
+head
+{
+  margin: 0;
+}
+
+body
+{
+    margin: 0;                                       /* Set Margin for Body to 0 */
+    font-size: 14px;                                 /* Set default Font Size */
+    font-family: verdana, arial, courier, helvetica; /* Set default and backup fonts for the page */
+    background: white;                               /* Fallback in case browser can't render gradient IE*/
+    background: linear-gradient(to top right, #494e6b, #98878f, #192231);   /* Sets a color gradient accross the page */
+    height: 100%;                                    /* Set the gradient to cover the whole web page */
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;                          /* ensure background image can cover the page */
+    color: #000
+}
+
+.mainHeader
+{
+  margin-top: 22%;
+  color: #222222;
+  text-decoration
+}
+
+#title /* Title for header element */
+{
+  text-align: center;                               /* Align the text in center of the screen */
+  margin: 0;
+  line-height:
+}
+
+nav
+{
+  position: absolute;                               /* Ensure element always appears in center of screen */
+  left: 50%;                                        /* Left Justification */
+  top: 60%;                                         /* Top Justification */
+  transform: translate(-50%, -50%);
+  width: 80%;                                     /* Width of the element */
+  /*margin-left: -600px;                              !* Adjustment for absolut position of element. *!*/
+}
+
+nav ul                                              /* Main Nave Outside Layer */
+{
+  list-style-type: none;                            /* Remove Bullet Points */
+  text-align: center;                               /* Align the elements in the center */
+}
+
+nav ul li                                           /* Nested List Elements  */
+{
+  display: inline-block;                            /* Display as Block elements inline */
+  padding: 15px;                                    /* Padding for Buttons visual Effect */
+  width: 20%;
+  background-color: #272d50;                        /* Color of the Buttons */
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bdc7d8;
+  border-radius: 5px;                               /* Curve Borders */
+}
+
+nav ul li:hover
+{
+    background-color: #bdc7d8;
+    border-color: #272d50;
+}
+
+nav ul li:hover a                             /* Effect on links when button is hovered over */
+{
+  color: black;                                     /* Set text color to black when list element is being hovered over */
+  display: block;
+}
+
+ul.subMenu                                          /* Hide the sub menu while the hover option is not selected. */
+{
+}
+
+ul.subMenu li
+{
+  display: block;
+  width: 200px;
+  margin-left: 500px;
+  background-color: #343434;
+  list-style-type: none;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 0;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  padding: 0;
+  font-size: 150%;
+  opacity: .7;
+}
+
+nav ul li:hover ul.subMenu li
+{
+  display: block;
+}
+
+#marginSet
+{
+  margin-left: -55px;
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+  font-size: 150%;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+/*  */

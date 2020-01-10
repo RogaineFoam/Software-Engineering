@@ -1,0 +1,417 @@
+h1
+{
+    margin: 0;
+    text-align: center;
+}
+
+body
+{
+    margin: 0;
+    background-color: white;
+    background: linear-gradient(to top right, #494e6b, #343434);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+
+}
+
+.searchBar
+{
+    padding: 6px;
+    background-color: #272d50;
+}
+.searchBar input
+{
+    object-position: center;
+}
+
+
+.column {
+    padding-top: 15px;
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    background-color: #67647d;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: black;
+    font-size: 22px;
+}
+
+.zip {
+    color: black;
+    font-size: 18px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+table
+{
+    text-align: center;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+table th
+{
+    border: 1px solid black;
+    color: white;
+    background-color: #272d50;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table tr
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table tr td
+{
+    background-color: #bdc7d8;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0;
+    color: black;
+    border-radius: 4px;
+}
+
+.mainHeader
+{
+    height: 75px;
+    box-sizing: border-box;
+    background-color: #272d50;
+    color: white;
+    line-height: 85px;
+    /*border: 2px solid black;*/
+    border-bottom: 2px solid black;
+}
+
+.mainNav body
+{
+    margin: 0;                                       /* Set Margin for Body to 0 */
+    font-size: 14px;                                 /* Set default Font Size */
+    font-family: verdana, arial, courier, helvetica; /* Set default and backup fonts for the page */
+    background: white;                               /* Fallback in case browser can't render gradient IE*/
+    background: linear-gradient(to top right, #494e6b, #98878f, #192231);   /* Sets a color gradient accross the page */
+    height: 100%;                                    /* Set the gradient to cover the whole web page */
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;                          /* ensure background image can cover the page */
+    color: #000
+}
+
+.mainNav ul
+{
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+    z-index: 99;                                    /* Determines which element appears on top if multiple are stacked. */
+}
+
+.mainNav ul li
+{
+    float: left;
+    box-sizing: border-box;
+    height: 40px;
+    background-color: #272d50;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #192231;
+    width: 33.333%;
+}
+
+.mainNav ul li a
+{
+    text-decoration: none;
+    color: snow;
+    display: block;
+}
+
+.mainNav ul li:hover a
+{
+    color: black;
+}
+
+.mainNav ul li:hover ul li a
+{
+    color: snow;
+}
+
+.mainNav ul li:hover
+{
+    background-color: #bdc7d8;
+}
+
+.mainNav ul li ul li
+{
+    display: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.mainNav ul li:hover ul li
+{
+    display: block;
+}
+
+.mainNav ul li:hover ul li:hover a
+{
+    color: black;
+}
+
+.mainContent
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#formMainContent
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 61%;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    background-color: #272d50;
+    z-index: -1;
+    overflow-y: scroll;
+    border-radius: 7px;
+}
+
+#formMainContent form fieldset legend
+{
+    color: white;
+}
+
+#formMainContent form fieldset label
+{
+    color: white;
+    margin-top: 10%;
+}
+
+#formMainContent form fieldset input
+{
+    width: 100%;
+    clear: both;
+}
+
+.contactBlock
+{
+    color: snow;
+    display: block;
+    border: 3px solid #272d50;
+    background-color: #bdc7d8;
+    border-radius: 10px;
+    width: 590px;
+    height: 290px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.contactBlock ul li
+{
+    font-size: 50px;
+    color: #272d50;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    list-style-type: none;
+}
+
+.contactBlock ul li ul
+{
+    border: none;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+
+.contactBlock ul li ul li
+{
+    font-size: 15px;
+    color: #272d50;
+}
+
+.contactBlock ul li ul li ul li
+{
+    font-weight: bold;
+    color: black;
+}
+
+.missionStatement
+{
+    height: 55%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    background-color: #bdc7d8;
+    border: 3px solid #272d50;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.missionStatement h2
+{
+    font-weight: bold;
+    color: #272d50;
+    margin: 20px;
+}
+
+.missionStatement h3
+{
+    font-weight: bold;
+    color: #272d50;
+    margin: 20px;
+}
+
+.missionStatement p
+{
+    text-indent: 5%;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mainFooter
+{
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    height: 50px;
+    background-color: #272d50;
+    color: snow;
+}
+
+.mainFooter p
+{
+    background-color: #272d50;
+    color: #67647d;
+    text-align: center;
+}
+
+.mainFooter ul
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+.mainFooter ul li
+{
+    display: inline;
+    box-sizing: border-box;
+    background-color: #bdc7d8;
+    padding: .5%;
+    border-radius:10px;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #67647d;
+
+}
+
+.mainFooter ul li a
+{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.mainFooter ul li:hover
+{
+    background: #272d50;
+    border-color: #bdc7d8;
+}
+.mainFooter ul li:hover a
+{
+    color: snow;
+}
+
+.errorMessage
+{
+    color: red;
+    font-size: 85%;
+}
+
+.swtichClientBox
+{
+    border-style: solid double;
+    background-color: #bdc7d8;
+}
+
+.coupon {
+    position: absolute;
+    top: 15%;
+    right: 31%;
+    /*border: 5px dotted #bbb; !* Dotted border *!*/
+    width: 80%;
+    height: 80%;
+    border-radius: 15px; /* Rounded border */
+    margin: 0 auto; /* Center the coupon */
+    max-width: 700px;
+    max-height: 490px;
+}
+
+.propImg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+    max-width: 700px;
+    max-height: 490px;
+}
+
+.promo {
+    background: #ccc;
+    padding: 3px;
+}
+
+.expire {
+    color: red;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="frontend.css" type="text/css">
+    <title>Property Creation</title>
+</head>
+
+<body>
+<div class="mainHeader">
+    <h1>Add a new property</h1>
+</div>
+<div class="mainNav">
+    <ul>
+        <li><a href="homePage.html">Home Page</a></li>
+        <li><a href="propertyList.html">Find a Property</a></li>
+        <li><a href="accountInfo.html">Account Info</a>
+            <ul>
+                <li><a href="accountInfo.html">User Profile</a></li>
+                <li><a href="currentReservations.html">View Reservations</a></li>
+                <li><a href="payment.html">Payment Method</a></li>
+                <li><a href="landlord.html">Landlord Portal</a></li>
+                <li><a href="admin.html">Admin Portal</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<div id="formMainContent">
+    <form id="addClientForm">
+        <fieldset>
+            <legend><b> Please Enter the new property info </b></legend>
+
+            <label>Landlord Email Address:</label>
+            <input id="email" type="text" name="name"> <br>
+
+            <label>Address Line 1:</label>
+            <input id="addressl1" type="text" name="string"> <br>
+
+            <label>Address Line 2:</label>
+            <input id="addressl2" type="text" name="string"> <br>
+
+            <label>City:</label>
+            <input id="city" type="text" name="email"> <br>
+
+            <label>State:</label>
+            <input id="state" type="text" name="email"> <br>
+
+            <label>Zip Code:</label>
+            <input id="zip" type="text" name="string"> <br>
+
+            <label>Enter a short description:</label>
+            <input id="desc" type="text" name="string"> <br>
+
+            <label>Rent per day:</label>
+            <input id="rent" type="text" name="name"> <br>
+
+            <label>Start Date:</label>
+            <input id="sDate" type="date" name="name"> <br>
+
+            <label>End Date:</label>
+            <input id="eDate" type="date" name="name"> <br>
+
+            <label>Upload a photo</label>
+            <input type="file" onchange="encodeImageFileAsURL(this)"/>
+
+            <input type="button" id="submit" value="Submit" onclick="addUser()">
+
+            <p id="subStatus" class="errorMessage"></p>
+
+        </fieldset>
+    </form>
+</div>
+
+<footer class="mainFooter">
+    <ul>
+        <li><a href="createAccount.html">Create an Account</a></li>
+        <li><a href="./index.html">Log In</a></li>
+        <li><a href="./accountInfo.html">Account Information</a></li>
+        <li><a href="propertyList.html">Find a Property</a></li>
+    </ul>
+    <p>Copyright &copy; 2019 William Fallin. All rights reserved</p>
+
+    <script src="./frontend.js" type="text/javascript">
+    </script>
+    <script></script>
+
+</footer>
+
+</body>
+
+</html>

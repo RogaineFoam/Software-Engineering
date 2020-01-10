@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="frontend.css" type="text/css">
+    <title>Property List</title>
+</head>
+
+<body>
+<div class="mainHeader">
+    <h1>View All Properties</h1>
+</div>
+<div class="mainNav">
+    <ul>
+        <li><a href="homePage.html">Home Page</a></li>
+        <li><a href="propertyList.html">Find a Property</a></li>
+        <li><a href="accountInfo.html">Account Info</a>
+            <ul>
+                <li><a href="accountInfo.html">User Profile</a></li>
+                <li><a href="currentReservations.html">View Reservations</a></li>
+                <li><a href="payment.html">Payment Method</a></li>
+                <li><a href="landlord.html">Landlord Portal</a></li>
+                <li><a href="admin.html">Admin Portal</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<div class="mainContent">
+    <table id="quoteHistoryTable">
+        <tr id="quoteHistoryHeaders">
+            <th>Address</th>
+            <th>Short Description</th>
+            <th>Day Rate</th>
+            <th>Avaliable Start</th>
+            <th>Avaliable End</th>
+            <th>View More Details</th>
+    </table>
+</div>
+
+<footer class="mainFooter">
+    <ul>
+        <li><a href="createAccount.html">Create an Account</a></li>
+        <li><a href="./index.html">Log In</a></li>
+        <li><a href="./accountInfo.html">Account Information</a></li>
+        <li><a href="propertyList.html">Find a Property</a></li>
+    </ul>
+    <p>Copyright &copy; 2019 William Fallin. All rights reserved</p>
+
+    <script src="./frontend.js" type="text/javascript">
+    </script>
+    <script>populatePropertyList()</script>
+
+</footer>
+
+</body>
+
+</html>
